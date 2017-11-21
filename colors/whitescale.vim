@@ -43,6 +43,7 @@ hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
 hi Visual term=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
+hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 
 hi link Boolean Constant
 hi link Character Constant
