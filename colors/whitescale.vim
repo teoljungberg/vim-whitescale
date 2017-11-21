@@ -24,7 +24,7 @@ hi DiffDelete term=italic cterm=NONE gui=italic ctermfg=gray ctermbg=bg guifg=gr
 hi DiffText term=italic cterm=NONE gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi Directory term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Error term=bold cterm=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
-hi Function term=NONE gui=NONE ctermfg=fg guifg=fg
+hi Function term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Identifier term=NONE gui=NONE ctermfg=fg guifg=fg
 hi Ignore ctermfg=bg guifg=bg
 hi LineNr term=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
