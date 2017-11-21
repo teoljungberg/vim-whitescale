@@ -14,7 +14,7 @@ else
   hi Normal term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
 endif
 
-hi Comment term=italic gui=italic ctermfg=fg guifg=fg
+hi Comment term=italic gui=italic ctermfg=gray guifg=gray
 hi Conceal term=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Constant term=italic gui=italic ctermfg=fg  guifg=fg
 hi Directory term=italic gui=italic ctermfg=fg  guifg=fg
