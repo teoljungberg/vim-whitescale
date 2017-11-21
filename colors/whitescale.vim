@@ -73,4 +73,5 @@ hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi link rubyConstant Constant
 hi link rubyInstanceVariable rubyDefine
+hi link rubyKeywordAsMethod rubyAssertion
 hi link rubyRailsTestmethod rubyDefine
