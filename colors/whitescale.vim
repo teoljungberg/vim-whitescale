@@ -28,6 +28,7 @@ hi Function term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Identifier term=NONE gui=NONE ctermfg=fg guifg=fg
 hi Ignore ctermfg=bg guifg=bg
 hi LineNr term=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
+hi MatchParen term=bold cterm=bold gui=bold,underline ctermfg=black ctermbg=NONE guifg=black guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg  guifg=fg
