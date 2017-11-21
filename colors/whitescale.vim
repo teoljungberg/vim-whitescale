@@ -19,18 +19,18 @@ hi Conceal term=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Constant term=italic gui=italic ctermfg=fg  guifg=fg
 hi Directory term=italic gui=italic ctermfg=fg  guifg=fg
 hi Directory term=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi Error term=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
+hi Error term=bold cterm=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
 hi Function term=NONE gui=NONE ctermfg=fg guifg=fg
 hi Identifier term=NONE gui=NONE ctermfg=fg guifg=fg
 hi Ignore ctermfg=bg guifg=bg
-hi Operator term=bold gui=bold ctermfg=fg guifg=fg
-hi PreProc term=bold gui=bold ctermfg=fg guifg=fg
-hi Repeat term=bold gui=bold ctermfg=fg  guifg=fg
+hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
+hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
+hi Repeat term=bold cterm=bold gui=bold ctermfg=fg  guifg=fg
 hi Special term=NONE  gui=NONE ctermfg=fg guifg=fg
-hi Statement term=bold gui=bold ctermfg=fg guifg=fg
-hi Title term=bold gui=bold ctermfg=fg guifg=fg
+hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
+hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi Type term=bold gui=bold ctermfg=fg guifg=fg
+hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
 
 hi link Boolean Constant
