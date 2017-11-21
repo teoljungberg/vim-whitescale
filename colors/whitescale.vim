@@ -17,8 +17,7 @@ endif
 hi Comment term=italic gui=italic ctermfg=gray guifg=gray
 hi Conceal term=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Constant term=italic gui=italic ctermfg=fg  guifg=fg
-hi Directory term=italic gui=italic ctermfg=fg  guifg=fg
-hi Directory term=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi Directory term=bold cterm=bold gui=italic ctermfg=fg  guifg=fg
 hi Error term=bold cterm=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
 hi Function term=NONE gui=NONE ctermfg=fg guifg=fg
 hi Identifier term=NONE gui=NONE ctermfg=fg guifg=fg
