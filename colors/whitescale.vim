@@ -31,6 +31,8 @@ hi LineNr term=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
 hi MatchParen term=bold cterm=bold gui=bold,underline ctermfg=black ctermbg=NONE guifg=black guibg=bg
 hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=fg guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
+hi Pmenu term=NONE gui=NONE ctermfg=fg ctermbg=gray guifg=fg guibg=gray
+hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=gray guifg=white guibg=gray
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Search term=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
