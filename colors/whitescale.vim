@@ -16,7 +16,7 @@ endif
 
 hi Comment term=italic gui=italic ctermfg=gray guifg=gray
 hi Conceal term=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi Constant term=italic gui=italic ctermfg=fg  guifg=fg
+hi Constant term=italic gui=italic ctermfg=fg guifg=fg
 hi CursorLineNr term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg
 hi DiffAdd term=bold cterm=bold gui=bold ctermfg=fg ctermbg=gray guifg=fg guibg=LightGray
 hi DiffChange term=italic cterm=NONE gui=italic ctermbg=bg guibg=bg
