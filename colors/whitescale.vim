@@ -1,4 +1,4 @@
-" Copyright 2015 Mike Burns
+" Copyright 2015 Mike Burns, 2017 Teo Ljungberg
 " ISC license
 hi clear
 
