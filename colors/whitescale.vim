@@ -33,6 +33,7 @@ hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Search term=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
+hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
 hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
