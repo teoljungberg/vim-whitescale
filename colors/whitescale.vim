@@ -72,4 +72,5 @@ hi link Typedef Type
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi link rubyConstant Constant
+hi link rubyInstanceVariable rubyDefine
 hi link rubyRailsTestmethod rubyDefine
