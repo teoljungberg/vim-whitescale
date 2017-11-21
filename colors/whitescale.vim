@@ -17,6 +17,10 @@ endif
 hi Comment term=italic gui=italic ctermfg=gray guifg=gray
 hi Conceal term=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Constant term=italic gui=italic ctermfg=fg  guifg=fg
+hi DiffAdd term=bold cterm=bold gui=bold ctermfg=fg ctermbg=gray guifg=fg guibg=LightGray
+hi DiffChange term=italic cterm=NONE gui=italic ctermbg=bg guibg=bg
+hi DiffDelete term=italic cterm=NONE gui=italic ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi DiffText term=italic cterm=NONE gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi Directory term=bold cterm=bold gui=italic ctermfg=fg  guifg=fg
 hi Error term=bold cterm=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
 hi Function term=NONE gui=NONE ctermfg=fg guifg=fg
@@ -53,5 +57,7 @@ hi link String Constant
 hi link Structure Type
 hi link Tag Special
 hi link Typedef Type
+hi link diffAdded DiffAdd
+hi link diffRemoved DiffDelete
 hi link rubyConstant Constant
 hi link rubyRailsTestmethod rubyDefine
