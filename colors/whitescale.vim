@@ -39,6 +39,8 @@ hi Search term=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
 hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi StatusLineNC term=reverse gui=reverse ctermfg=gray ctermbg=bg guifg=gray
+hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
+hi StatusLineTermNC term=reverse gui=reverse ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
