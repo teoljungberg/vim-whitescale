@@ -63,6 +63,7 @@ hi link Include PreProc
 hi link Keyword Statement
 hi link Label Statement
 hi link Macro PreProc
+hi link MoreMsg Question
 hi link Number Constant
 hi link PreCondit PreProc
 hi link SpecialChar Special
