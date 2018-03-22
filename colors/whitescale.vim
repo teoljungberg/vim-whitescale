@@ -75,7 +75,7 @@ hi link Tag Special
 hi link Typedef Type
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
-hi link rubyConstant Constant
+hi link rubyConstant Type
 hi link rubyInstanceVariable rubyDefine
 hi link rubyKeywordAsMethod rubyAssertion
 hi link rubyRailsTestmethod rubyDefine
