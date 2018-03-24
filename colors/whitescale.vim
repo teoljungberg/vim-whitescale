@@ -83,6 +83,7 @@ hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi link qfLineNr CursorLineNr
 hi link rubyConstant Type
+hi link rubyDefine Function
 hi link rubyInstanceVariable rubyDefine
 hi link rubyKeywordAsMethod rubyAssertion
 hi link rubyRailsTestmethod rubyDefine
