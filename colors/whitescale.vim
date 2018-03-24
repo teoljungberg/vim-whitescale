@@ -43,6 +43,7 @@ hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi StatusLineNC term=reverse gui=reverse ctermfg=gray ctermbg=bg guifg=gray
 hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
 hi StatusLineTermNC term=reverse gui=reverse ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi TabLine term=NONE cterm=NONE gui=NONE ctermfg=gray guifg=gray
 hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
