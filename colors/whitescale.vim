@@ -82,4 +82,6 @@ hi link rubyKeywordAsMethod rubyAssertion
 hi link rubyRailsTestmethod rubyDefine
 hi link rubyStringDelimiter rubyString
 hi link rubySymbol rubyString
+hi link vimFuncBody Function
 hi link vimFunction Function
+hi link vimUserFunc Function
