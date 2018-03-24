@@ -25,6 +25,8 @@ hi DiffText term=italic cterm=NONE gui=italic ctermfg=fg ctermbg=gray guifg=fg g
 hi Directory term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Error term=bold cterm=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
 hi Function term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
+hi Folded term=bold cterm=bold gui=bold ctermfg=gray ctermbg=white guifg=gray guibg=white
+hi FoldColumn term=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Identifier term=NONE gui=NONE ctermfg=fg guifg=fg
 hi Ignore ctermfg=bg guifg=bg
 hi LineNr term=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
