@@ -37,6 +37,7 @@ hi Pmenu term=NONE gui=NONE ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Question term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi QuickFixline term=NONE gui=NONE ctermbg=gray guibg=gray
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Search term=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
 hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
@@ -80,6 +81,7 @@ hi link Tag Special
 hi link Typedef Type
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
+hi link qfLineNr CursorLineNr
 hi link rubyConstant Type
 hi link rubyInstanceVariable rubyDefine
 hi link rubyKeywordAsMethod rubyAssertion
