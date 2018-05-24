@@ -82,6 +82,9 @@ hi link Typedef Type
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi link qfLineNr CursorLineNr
+hi link rubyAssertion rubyFunction
+hi link rubyBlockParameter rubyIdentifier
+hi link rubyCapitalizedMethod rubyConstant
 hi link rubyConstant Type
 hi link rubyDefine Function
 hi link rubyInstanceVariable rubyDefine
@@ -89,6 +92,8 @@ hi link rubyKeywordAsMethod rubyAssertion
 hi link rubyRailsTestmethod rubyDefine
 hi link rubyStringDelimiter rubyString
 hi link rubySymbol rubyString
+hi link rubyTestMacro rubyFunction
+hi link rubyTesthelper rubyFunction
 hi link vimFuncBody Function
 hi link vimFunction Function
 hi link vimUserFunc Function
