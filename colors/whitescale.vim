@@ -14,14 +14,14 @@ else
   hi Normal term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
 endif
 
-hi Comment term=italic gui=italic ctermfg=gray guifg=gray
-hi Conceal term=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi Constant term=italic gui=italic ctermfg=fg guifg=fg
+hi Comment term=italic cterm=italic gui=italic ctermfg=gray guifg=gray
+hi Conceal term=italic cterm=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi Constant term=italic cterm=italic gui=italic ctermfg=fg guifg=fg
 hi CursorLineNr term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg
 hi DiffAdd term=bold cterm=bold gui=bold ctermfg=white ctermbg=gray guifg=white guibg=gray
-hi DiffChange term=italic cterm=NONE gui=italic ctermfg=white ctermbg=gray guifg=white guibg=gray
-hi DiffDelete term=italic cterm=NONE gui=italic ctermfg=gray ctermbg=bg guifg=gray guibg=bg
-hi DiffText term=italic cterm=NONE gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
+hi DiffChange term=italic cterm=italic gui=italic ctermfg=white ctermbg=gray guifg=white guibg=gray
+hi DiffDelete term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi DiffText term=italic cterm=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi Directory term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Error term=bold cterm=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
 hi Function term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
@@ -29,7 +29,7 @@ hi Folded term=bold cterm=bold gui=bold ctermfg=gray ctermbg=white guifg=gray gu
 hi FoldColumn term=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Identifier term=NONE gui=NONE ctermfg=fg guifg=fg
 hi Ignore ctermfg=bg guifg=bg
-hi LineNr term=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
+hi LineNr term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
 hi MatchParen term=bold cterm=bold gui=bold,underline ctermfg=black ctermbg=NONE guifg=black guibg=bg
 hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=fg guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
@@ -39,7 +39,7 @@ hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Question term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi QuickFixline term=NONE gui=NONE ctermbg=gray guibg=gray
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
-hi Search term=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
+hi Search term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
 hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
 hi SpecialKey term=NONE cterm=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
@@ -53,9 +53,9 @@ hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
-hi Visual term=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
+hi Visual term=italic cterm=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=gray guifg=fg guibg=gray
-hi gitRebaseFixup term=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi gitRebaseFixup term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 
 hi link Boolean Constant
 hi link Character Constant
