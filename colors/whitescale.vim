@@ -37,7 +37,6 @@ hi Pmenu term=NONE gui=NONE ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Question term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
-hi QuickFixline term=NONE gui=NONE ctermbg=gray guibg=gray
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Search term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
 hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
@@ -72,6 +71,7 @@ hi link Macro PreProc
 hi link MoreMsg Question
 hi link Number Constant
 hi link PreCondit PreProc
+hi link QuickFixline CursorLine
 hi link SpecialChar Special
 hi link SpecialComment Special
 hi link StorageClass Type
