@@ -54,7 +54,6 @@ hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
 hi Visual term=italic cterm=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=gray guifg=fg guibg=gray
-hi gitRebaseFixup term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 
 hi link Boolean Constant
 hi link Character Constant
@@ -81,6 +80,7 @@ hi link Tag Special
 hi link Typedef Type
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
+hi link gitRebaseFixup Statement
 hi link qfLineNr CursorLineNr
 hi link rubyAssertion rubyFunction
 hi link rubyBlockParameter rubyIdentifier
