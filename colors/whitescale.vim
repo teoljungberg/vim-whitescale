@@ -41,6 +41,7 @@ hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Search term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
 hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
 hi SpecialKey term=NONE cterm=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi StatusLineNC term=reverse gui=reverse ctermfg=gray ctermbg=bg guifg=gray
 hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
