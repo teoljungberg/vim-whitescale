@@ -53,6 +53,7 @@ hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
+hi VertSplit term=bold cterm=bold gui=bold ctermfg=fg ctermbg=black guifg=fg guibg=black
 hi Visual term=italic cterm=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 
