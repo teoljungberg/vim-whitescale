@@ -27,7 +27,7 @@ hi Error term=bold cterm=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
 hi Function term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Folded term=bold cterm=bold gui=bold ctermfg=gray ctermbg=white guifg=gray guibg=white
 hi FoldColumn term=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi Identifier term=NONE gui=NONE ctermfg=fg guifg=fg
+hi Identifier term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Ignore ctermfg=bg guifg=bg
 hi LineNr term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
 hi MatchParen term=bold cterm=bold gui=bold,underline ctermfg=black ctermbg=NONE guifg=black guibg=bg
