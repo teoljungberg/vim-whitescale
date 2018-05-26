@@ -31,7 +31,7 @@ hi Function term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Identifier term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Ignore ctermfg=bg guifg=bg
 hi LineNr term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
-hi MatchParen term=bold cterm=bold gui=bold,underline ctermfg=black ctermbg=NONE guifg=black guibg=bg
+hi MatchParen term=bold cterm=bold gui=bold,underline ctermfg=white ctermbg=black guifg=white guibg=black
 hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=fg guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Pmenu term=NONE gui=NONE ctermfg=fg ctermbg=gray guifg=fg guibg=gray
