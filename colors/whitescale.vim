@@ -14,6 +14,7 @@ else
   hi Normal term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
 endif
 
+hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
 hi Comment term=italic cterm=italic gui=italic ctermfg=gray guifg=gray
 hi Conceal term=italic cterm=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Constant term=italic cterm=italic gui=italic ctermfg=fg guifg=fg
