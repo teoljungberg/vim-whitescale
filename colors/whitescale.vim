@@ -10,6 +10,7 @@ let g:colors_name = "whitescale"
 
 if &bg == "light"
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
+  hi DiffChange term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
   hi MatchParen term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
   hi Normal term=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
   hi Search term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
@@ -20,6 +21,7 @@ if &bg == "light"
   hi VertSplit term=bold cterm=bold gui=bold ctermfg=fg ctermbg=black guifg=fg guibg=black
 else
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
+  hi DiffChange term=italic cterm=italic gui=italic ctermfg=black ctermbg=white guifg=black guibg=white
   hi MatchParen term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
   hi Normal term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
   hi Search term=italic cterm=italic gui=italic ctermfg=black ctermbg=white guifg=black guibg=white
@@ -35,7 +37,6 @@ hi Conceal term=italic cterm=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg gu
 hi Constant term=italic cterm=italic gui=italic ctermfg=fg guifg=fg
 hi CursorLineNr term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg
 hi DiffAdd term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi DiffChange term=italic cterm=italic gui=italic ctermfg=white ctermbg=gray guifg=white guibg=gray
 hi DiffDelete term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi DiffText term=italic cterm=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi Directory term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
