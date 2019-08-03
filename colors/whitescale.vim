@@ -58,8 +58,8 @@ hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
 hi SpecialKey term=NONE cterm=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
-hi StatusLineNC term=reverse gui=reverse ctermfg=gray ctermbg=bg guifg=gray
-hi StatusLineTermNC term=reverse cterm=reverse gui=reverse ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
+hi StatusLineTermNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
 hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
@@ -109,5 +109,3 @@ hi link rubyTesthelper rubyFunction
 hi link vimFuncBody Function
 hi link vimFunction Function
 hi link vimUserFunc Function
-hi link StatusLineTerm StatusLine
-hi link StatusLineTermNC StatusLineNC
