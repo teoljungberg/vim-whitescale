@@ -13,15 +13,17 @@ if &background == "light"
   hi Normal term=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
   hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=white guifg=gray guibg=white
-  hi TabLineFill term=underline cterm=underline gui=underline ctermbg=white guibg=white
-  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermbg=white guibg=white
+  hi TabLineFill term=underline cterm=underline gui=underline ctermfg=gray ctermbg=white guifg=gray guibg=white
+  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=black ctermbg=white guifg=black guibg=white
+  hi Visual term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
 else
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
   hi Normal term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
   hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=black guifg=gray guibg=black
-  hi TabLineFill term=underline cterm=underline gui=underline ctermbg=black guibg=black
-  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermbg=black guibg=black
+  hi TabLineFill term=underline cterm=underline gui=underline ctermfg=white ctermbg=black guifg=white guibg=black
+  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=white ctermbg=black guifg=white guibg=black
+  hi Visual term=italic cterm=italic gui=italic ctermfg=black ctermbg=white guifg=black guibg=white
 endif
 
 hi Comment term=italic cterm=italic gui=italic ctermfg=gray guifg=gray
