@@ -69,7 +69,7 @@ hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
 hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=gray guifg=fg guibg=gray
+hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 
 hi link EndOfBuffer NonText
 
