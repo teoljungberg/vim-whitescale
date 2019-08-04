@@ -11,6 +11,10 @@ let g:colors_name = "whitescale"
 if &background == "light"
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
   hi Normal term=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
+  hi Pmenu term=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
+  hi PmenuSbar term=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
+  hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
+  hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
   hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=white guifg=gray guibg=white
   hi TabLineFill term=underline cterm=underline gui=underline ctermfg=gray ctermbg=white guifg=gray guibg=white
@@ -19,6 +23,10 @@ if &background == "light"
 else
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
   hi Normal term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
+  hi Pmenu term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
+  hi PmenuSbar term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
+  hi PmenuSel term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
+  hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
   hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=black guifg=gray guibg=black
   hi TabLineFill term=underline cterm=underline gui=underline ctermfg=white ctermbg=black guifg=white guibg=black
@@ -45,8 +53,6 @@ hi LineNr term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
 hi MatchParen term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=fg guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
-hi Pmenu term=NONE gui=NONE ctermfg=fg ctermbg=gray guifg=fg guibg=gray
-hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Question term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
