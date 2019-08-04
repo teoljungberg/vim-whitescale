@@ -11,7 +11,6 @@ let g:colors_name = "whitescale"
 if &background == "light"
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
   hi DiffChange term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
-  hi MatchParen term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
   hi Normal term=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
   hi Search term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
@@ -21,7 +20,6 @@ if &background == "light"
 else
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
   hi DiffChange term=italic cterm=italic gui=italic ctermfg=black ctermbg=white guifg=black guibg=white
-  hi MatchParen term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
   hi Normal term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
   hi Search term=italic cterm=italic gui=italic ctermfg=black ctermbg=white guifg=black guibg=white
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
@@ -45,6 +43,7 @@ hi Function term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Identifier term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Ignore ctermfg=bg guifg=bg
 hi LineNr term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
+hi MatchParen term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=fg guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Pmenu term=NONE gui=NONE ctermfg=fg ctermbg=gray guifg=fg guibg=gray
