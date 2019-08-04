@@ -8,7 +8,7 @@ endif
 
 let g:colors_name = "whitescale"
 
-if &bg == "light"
+if &background == "light"
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
   hi DiffChange term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
   hi MatchParen term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
