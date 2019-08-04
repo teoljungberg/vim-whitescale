@@ -18,7 +18,6 @@ if &bg == "light"
   hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=white guifg=gray guibg=white
   hi TabLineFill term=underline cterm=underline gui=underline ctermbg=white guibg=white
   hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermbg=white guibg=white
-  hi VertSplit term=bold cterm=bold gui=bold ctermfg=fg ctermbg=black guifg=fg guibg=black
 else
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
   hi DiffChange term=italic cterm=italic gui=italic ctermfg=black ctermbg=white guifg=black guibg=white
@@ -29,7 +28,6 @@ else
   hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=black guifg=gray guibg=black
   hi TabLineFill term=underline cterm=underline gui=underline ctermbg=black guibg=black
   hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermbg=black guibg=black
-  hi VertSplit term=bold cterm=bold gui=bold ctermfg=fg ctermbg=white guifg=fg guibg=white
 endif
 
 hi Comment term=italic cterm=italic gui=italic ctermfg=gray guifg=gray
@@ -64,5 +62,8 @@ hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
+hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
 hi Visual term=italic cterm=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=gray guifg=fg guibg=gray
+
+set fillchars+=vert:│
