@@ -40,7 +40,7 @@ hi Constant term=italic cterm=italic gui=italic ctermfg=fg guifg=fg
 hi CursorLineNr term=italic,bold cterm=italic,bold gui=italic,bold ctermfg=fg ctermbg=bg guifg=fg
 hi DiffAdd term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi DiffChange term=italic cterm=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi DiffDelete term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi DiffDelete term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi DiffText term=italic cterm=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi Directory term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Error term=bold cterm=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
@@ -72,5 +72,6 @@ hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 
 hi link EndOfBuffer NonText
+hi link diffRemoved DiffDelete
 
 set fillchars+=vert:│
