@@ -50,6 +50,7 @@ hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=whit
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Question term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
+hi SignColumn term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
 hi SpecialKey term=NONE cterm=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
