@@ -60,7 +60,7 @@ hi Search term=italic,underline cterm=italic,underline gui=italic,underline cter
 hi SignColumn term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
 hi SpecialKey term=NONE gui=NONE ctermfg=fg guifg=fg
-hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
 hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
 hi StatusLineTermNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
