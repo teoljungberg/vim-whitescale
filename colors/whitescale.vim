@@ -44,6 +44,7 @@ hi DiffDelete term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=
 hi DiffText term=italic cterm=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
 hi Directory term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Error term=bold cterm=bold gui=bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
+hi ErrorMsg term=bold,reverse cterm=bold,reverse gui=bold,reverse ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi FoldColumn term=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Folded term=bold cterm=bold gui=bold ctermfg=gray ctermbg=white guifg=gray guibg=white
 hi Function term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
