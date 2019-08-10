@@ -70,7 +70,7 @@ hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
 hi StatusLineTermNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
 hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
-hi Todo term=undercurl cterm=undercurl gui=undercurl ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi Todo term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
 hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
