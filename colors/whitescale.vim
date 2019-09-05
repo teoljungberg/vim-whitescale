@@ -57,6 +57,7 @@ hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=fg guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Question term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi QuickFixLine term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Search term=italic,underline cterm=italic,underline gui=italic,underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi SignColumn term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
