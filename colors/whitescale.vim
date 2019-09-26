@@ -34,10 +34,13 @@ else
   hi Visual term=italic cterm=italic gui=italic ctermfg=black ctermbg=white guifg=black guibg=white
 endif
 
+hi clear CursorLine
+
 hi Comment term=italic cterm=italic gui=italic ctermfg=gray guifg=gray
 hi Conceal term=italic cterm=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Constant term=italic cterm=italic gui=italic ctermfg=fg guifg=fg
 hi CursorLineNr term=italic,bold cterm=italic,bold gui=italic,bold ctermfg=fg ctermbg=bg guifg=fg
+hi CursorLine term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg
 hi DiffAdd term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi DiffChange term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi DiffDelete term=NONE cterm=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=gray guibg=bg
