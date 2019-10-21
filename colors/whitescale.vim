@@ -9,29 +9,29 @@ endif
 let g:colors_name = "whitescale"
 
 if &background == "light"
-  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
-  hi Normal term=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
-  hi Pmenu term=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
-  hi PmenuSbar term=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
-  hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
-  hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
-  hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=black guifg=white guibg=black
+  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi Normal term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
+  hi Pmenu term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
+  hi PmenuSbar term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
+  hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
   hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=white guifg=gray guibg=white
   hi TabLineFill term=underline cterm=underline gui=underline ctermfg=gray ctermbg=white guifg=gray guibg=white
-  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=black ctermbg=white guifg=black guibg=white
-  hi Visual term=italic cterm=italic gui=italic ctermfg=white ctermbg=black guifg=white guibg=black
+  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
+  hi Visual term=italic cterm=italic gui=italic ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
 else
-  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=black ctermbg=white guifg=black guibg=white
-  hi Normal term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
-  hi Pmenu term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
-  hi PmenuSbar term=NONE gui=NONE ctermfg=white ctermbg=black guifg=white guibg=black
-  hi PmenuSel term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
-  hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
-  hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=black ctermbg=white guifg=black guibg=white
-  hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=black guifg=gray guibg=black
-  hi TabLineFill term=underline cterm=underline gui=underline ctermfg=white ctermbg=black guifg=white guibg=black
-  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=white ctermbg=black guifg=white guibg=black
-  hi Visual term=italic cterm=italic gui=italic ctermfg=black ctermbg=white guifg=black guibg=white
+  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
+  hi Normal term=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi Pmenu term=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi PmenuSbar term=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi PmenuSel term=bold cterm=bold gui=bold ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
+  hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
+  hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
+  hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=234 guifg=gray guibg=#1C1C1C
+  hi TabLineFill term=underline cterm=underline gui=underline ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi Visual term=italic cterm=italic gui=italic ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
 endif
 
 hi clear CursorLine
