@@ -56,7 +56,7 @@ hi Ignore ctermfg=bg guifg=bg
 hi LineNr term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
 hi MatchParen term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 hi MoreMsg term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=fg guibg=bg
+hi NonText term=NONE gui=NONE ctermfg=gray guifg=fg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Question term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
@@ -79,6 +79,10 @@ hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
 hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+
+hi vimHiKeyList ctermfg=fg ctermbg=NONE
+hi vimHiCtermColor ctermfg=fg ctermbg=NONE
+hi vimIsCommand ctermfg=fg ctermbg=NONE
 
 hi link EndOfBuffer NonText
 hi link diffAdded DiffAdd
