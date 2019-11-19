@@ -9,7 +9,7 @@ endif
 let g:colors_name = "whitescale"
 
 if &background == "light"
-  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=lightgray guifg=white guibg=#1C1C1C
   hi Normal term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
   hi Pmenu term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
   hi PmenuSbar term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
@@ -21,7 +21,7 @@ if &background == "light"
   hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
   hi Visual term=italic cterm=italic gui=italic ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
 else
-  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
+  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=234 ctermbg=darkgray guifg=#1C1C1C guibg=white
   hi Normal term=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
   hi Pmenu term=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
   hi PmenuSbar term=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
