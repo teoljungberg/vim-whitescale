@@ -56,7 +56,7 @@ hi Ignore ctermfg=gray guifg=gray
 hi LineNr term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
 hi MatchParen term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 hi MoreMsg term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=fg guibg=bg
+hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=gray guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Question term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
