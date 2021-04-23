@@ -9,7 +9,7 @@ endif
 let g:colors_name = "whitescale"
 
 if &background == "light"
-  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=lightgray guifg=white guibg=#1C1C1C
+  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=lightgray guifg=white guibg=#D0D0D0
   hi Normal term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
   hi Pmenu term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
   hi PmenuSbar term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
