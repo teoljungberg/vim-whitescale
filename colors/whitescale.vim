@@ -50,7 +50,7 @@ hi Error term=underline,bold cterm=underline,bold gui=underline,bold ctermbg=bg 
 hi ErrorMsg term=bold,reverse cterm=bold,reverse gui=bold,reverse ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi FoldColumn term=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Folded term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray guibg=bg
-hi Function term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
+hi Function term=bold,italic cterm=bold,italic gui=bold,italic ctermfg=fg guifg=fg
 hi Identifier term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Ignore ctermfg=gray guifg=gray
 hi LineNr term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
@@ -75,7 +75,7 @@ hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE 
 hi StatusLineTermNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
 hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi Type term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
+hi Type term=bold,italic cterm=bold,italic gui=bold,italic ctermfg=fg guifg=fg
 hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
 hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
