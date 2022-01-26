@@ -16,8 +16,8 @@ if &background == "light"
   hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
   hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
-  hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=white guifg=gray guibg=white
-  hi TabLineFill term=underline cterm=underline gui=underline ctermfg=gray ctermbg=white guifg=gray guibg=white
+  hi TabLine term=underline cterm=underline gui=underline ctermfg=darkgray ctermbg=white guifg=darkgray guibg=white
+  hi TabLineFill term=underline cterm=underline gui=underline ctermfg=darkgray ctermbg=white guifg=darkgray guibg=white
   hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
   hi Visual term=italic cterm=italic gui=italic ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
 else
@@ -28,7 +28,7 @@ else
   hi PmenuSel term=bold cterm=bold gui=bold ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
   hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
-  hi TabLine term=underline cterm=underline gui=underline ctermfg=gray ctermbg=234 guifg=gray guibg=#1C1C1C
+  hi TabLine term=underline cterm=underline gui=underline ctermfg=darkgray ctermbg=234 guifg=darkgray guibg=#1C1C1C
   hi TabLineFill term=underline cterm=underline gui=underline ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
   hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
   hi Visual term=italic cterm=italic gui=italic ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
@@ -36,36 +36,36 @@ endif
 
 hi clear CursorLine
 
-hi Comment term=italic cterm=italic gui=italic ctermfg=gray guifg=gray
+hi Comment term=italic cterm=italic gui=italic ctermfg=8 guifg=darkgray
 hi Conceal term=italic cterm=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Constant term=italic cterm=italic gui=italic ctermfg=fg guifg=fg
 hi CursorLineNr term=italic,bold cterm=italic,bold gui=italic,bold ctermfg=fg ctermbg=bg guifg=fg
 hi CursorLine term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg
 hi DiffAdd term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi DiffChange term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi DiffDelete term=NONE cterm=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=gray guibg=bg
-hi DiffText term=italic cterm=italic gui=italic ctermfg=fg ctermbg=gray guifg=fg guibg=gray
+hi DiffDelete term=NONE cterm=NONE gui=NONE ctermfg=8 ctermbg=bg guifg=darkgray guibg=bg
+hi DiffText term=italic cterm=italic gui=italic ctermfg=fg ctermbg=darkgray guifg=fg guibg=darkgray
 hi Directory term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Error term=underline,bold cterm=underline,bold gui=underline,bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
 hi ErrorMsg term=bold,reverse cterm=bold,reverse gui=bold,reverse ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi FoldColumn term=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi Folded term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi Folded term=italic cterm=italic gui=italic ctermfg=darkgray ctermbg=bg guifg=darkgray guibg=bg
 hi Function term=bold,italic cterm=bold,italic gui=bold,italic ctermfg=fg guifg=fg
 hi Identifier term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
-hi Ignore ctermfg=gray guifg=gray
-hi LineNr term=italic cterm=italic gui=italic ctermfg=gray ctermbg=bg guifg=gray
+hi Ignore ctermfg=darkgray guifg=darkgray
+hi LineNr term=italic cterm=italic gui=italic ctermfg=darkgray ctermbg=bg guifg=darkgray
 hi MatchParen term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 hi MoreMsg term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi NonText term=NONE gui=NONE ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi NonText term=NONE gui=NONE ctermfg=darkgray ctermbg=bg guifg=darkgray guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi PreProc term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
-hi Question term=bold cterm=bold gui=bold ctermfg=gray ctermbg=bg guifg=gray guibg=bg
+hi Question term=bold cterm=bold gui=bold ctermfg=darkgray ctermbg=bg guifg=darkgray guibg=bg
 hi QuickFixLine term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Search term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi SignColumn term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
-hi SpecialKey term=NONE cterm=NONE gui=NONE ctermfg=gray guifg=gray
+hi SpecialKey term=NONE cterm=NONE gui=NONE ctermfg=darkgray guifg=darkgray
 hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
 hi SpellCap term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
 hi SpellLocal term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
