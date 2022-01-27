@@ -10,6 +10,7 @@ let g:colors_name = "whitescale"
 
 if &background == "light"
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=lightgray guifg=white guibg=#D0D0D0
+  hi Comment term=italic cterm=italic gui=italic ctermfg=gray guifg=gray
   hi Normal term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
   hi Pmenu term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
   hi PmenuSbar term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
@@ -22,6 +23,7 @@ if &background == "light"
   hi Visual term=italic cterm=italic gui=italic ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
 else
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=234 ctermbg=8 guifg=#1C1C1C guibg=#D0D0D0
+  hi Comment term=italic cterm=italic gui=italic ctermfg=8 guifg=darkgray
   hi Normal term=NONE gui=NONE ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
   hi Pmenu term=NONE gui=NONE ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
   hi PmenuSbar term=NONE gui=NONE ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
@@ -36,7 +38,6 @@ endif
 
 hi clear CursorLine
 
-hi Comment term=italic cterm=italic gui=italic ctermfg=8 guifg=darkgray
 hi Conceal term=italic cterm=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Constant term=italic cterm=italic gui=italic ctermfg=fg guifg=fg
 hi CursorLineNr term=italic,bold cterm=italic,bold gui=italic,bold ctermfg=fg ctermbg=bg guifg=fg
