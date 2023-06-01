@@ -20,7 +20,7 @@ if &background == "light"
   hi TabLine term=underline cterm=underline gui=underline ctermfg=8 ctermbg=white guifg=darkgray guibg=white
   hi TabLineFill term=underline cterm=underline gui=underline ctermfg=8 ctermbg=white guifg=darkgray guibg=white
   hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
-  hi Visual term=italic cterm=italic gui=italic ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi Visual term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
 else
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=234 ctermbg=8 guifg=#1C1C1C guibg=#D0D0D0
   hi Comment term=italic cterm=italic gui=italic ctermfg=8 guifg=darkgray
@@ -33,7 +33,7 @@ else
   hi TabLine term=underline cterm=underline gui=underline ctermfg=8 ctermbg=234 guifg=darkgray guibg=#1C1C1C
   hi TabLineFill term=underline cterm=underline gui=underline ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
   hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
-  hi Visual term=italic cterm=italic gui=italic ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
+  hi Visual term=NONE cterm=NONE gui=NONE ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
 endif
 
 hi clear CursorLine
