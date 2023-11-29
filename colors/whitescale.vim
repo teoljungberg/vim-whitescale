@@ -9,18 +9,18 @@ endif
 let g:colors_name = "whitescale"
 
 if &background == "light"
-  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=lightgray guifg=white guibg=#D0D0D0
-  hi Comment term=italic cterm=italic gui=italic ctermfg=gray guifg=gray
-  hi Normal term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
-  hi Pmenu term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
-  hi PmenuSbar term=NONE gui=NONE ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
-  hi PmenuSel term=bold cterm=bold gui=bold ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
-  hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
-  hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
-  hi TabLine term=underline cterm=underline gui=underline ctermfg=8 ctermbg=white guifg=darkgray guibg=white
-  hi TabLineFill term=underline cterm=underline gui=underline ctermfg=8 ctermbg=white guifg=darkgray guibg=white
-  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=234 ctermbg=white guifg=#1C1C1C guibg=white
-  hi Visual term=NONE cterm=NONE gui=NONE ctermfg=white ctermbg=234 guifg=white guibg=#1C1C1C
+  hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=15 ctermbg=7 guifg=white guibg=#D0D0D0
+  hi Comment term=italic cterm=italic gui=italic ctermfg=248 guifg=gray
+  hi Normal term=NONE gui=NONE ctermfg=234 ctermbg=15 guifg=#1C1C1C guibg=white
+  hi Pmenu term=NONE gui=NONE ctermfg=234 ctermbg=15 guifg=#1C1C1C guibg=white
+  hi PmenuSbar term=NONE gui=NONE ctermfg=234 ctermbg=15 guifg=#1C1C1C guibg=white
+  hi PmenuSel term=bold cterm=bold gui=bold ctermfg=15 ctermbg=234 guifg=white guibg=#1C1C1C
+  hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=15 ctermbg=234 guifg=white guibg=#1C1C1C
+  hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=15 ctermbg=234 guifg=white guibg=#1C1C1C
+  hi TabLine term=underline cterm=underline gui=underline ctermfg=8 ctermbg=15 guifg=darkgray guibg=white
+  hi TabLineFill term=underline cterm=underline gui=underline ctermfg=8 ctermbg=15 guifg=darkgray guibg=white
+  hi TabLineSel term=bold,underline cterm=bold,underline cterm=bold,underline gui=bold,underline ctermfg=234 ctermbg=15 guifg=#1C1C1C guibg=white
+  hi Visual term=NONE cterm=NONE gui=NONE ctermfg=15 ctermbg=234 guifg=white guibg=#1C1C1C
 else
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=234 ctermbg=8 guifg=#1C1C1C guibg=#D0D0D0
   hi Comment term=italic cterm=italic gui=italic ctermfg=8 guifg=darkgray
@@ -65,20 +65,20 @@ hi QuickFixLine term=bold,underline cterm=bold,underline gui=bold,underline cter
 hi Repeat term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Search term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi SignColumn term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi Special term=NONE gui=NONE ctermfg=fg guifg=fg
+hi Special term=NONE cterm=NONE gui=NONE ctermfg=fg guifg=fg
 hi SpecialKey term=NONE cterm=NONE gui=NONE ctermfg=8 guifg=darkgray
-hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
-hi SpellCap term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
-hi SpellLocal term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
-hi SpellRare term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
+hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi SpellCap term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi SpellLocal term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi SpellRare term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
-hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
-hi StatusLineTermNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
+hi StatusLineNC term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi StatusLineTermNC term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold,italic cterm=bold,italic gui=bold,italic ctermfg=fg guifg=fg
-hi Underlined term=underline gui=underline ctermfg=fg guifg=fg
-hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
+hi Underlined term=underline cterm=underline gui=underline ctermfg=fg guifg=fg
+hi VertSplit term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 
 hi link EndOfBuffer NonText
