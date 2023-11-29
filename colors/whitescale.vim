@@ -55,7 +55,7 @@ hi Function term=bold,italic cterm=bold,italic gui=bold,italic ctermfg=fg guifg=
 hi Identifier term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Ignore ctermfg=8 guifg=darkgray
 hi LineNr term=italic cterm=italic gui=italic ctermfg=8 ctermbg=bg guifg=darkgray
-hi MatchParen term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
+hi MatchParen term=underline cterm=underline gui=reverse,underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi MoreMsg term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi NonText term=NONE gui=NONE ctermfg=8 ctermbg=bg guifg=darkgray guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
