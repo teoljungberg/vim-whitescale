@@ -67,7 +67,7 @@ hi Search term=bold,underline cterm=bold,underline gui=bold,underline ctermfg=fg
 hi SignColumn term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Special term=NONE cterm=NONE gui=NONE ctermfg=fg guifg=fg
 hi SpecialKey term=NONE cterm=NONE gui=NONE ctermfg=8 guifg=darkgray
-hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
 hi SpellCap term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi SpellLocal term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi SpellRare term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
