@@ -16,6 +16,7 @@ if &background == "light"
   hi PmenuSbar term=NONE gui=NONE ctermfg=234 ctermbg=15 guifg=#1C1C1C guibg=white
   hi PmenuSel term=bold cterm=bold gui=bold ctermfg=15 ctermbg=234 guifg=white guibg=#1C1C1C
   hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=15 ctermbg=234 guifg=white guibg=#1C1C1C
+  hi StatusLine term=bold cterm=bold gui=bold ctermfg=15 ctermbg=234 guifg=white guibg=#1C1C1C
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=15 ctermbg=234 guifg=white guibg=#1C1C1C
   hi TabLine term=underline cterm=underline gui=underline ctermfg=8 ctermbg=15 guifg=darkgray guibg=white
   hi TabLineFill term=underline cterm=underline gui=underline ctermfg=8 ctermbg=15 guifg=darkgray guibg=white
@@ -29,6 +30,7 @@ else
   hi PmenuSbar term=NONE gui=NONE ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
   hi PmenuSel term=bold cterm=bold gui=bold ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
   hi PmenuThumb term=bold cterm=bold gui=bold ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
+  hi StatusLine term=bold cterm=bold gui=bold ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
   hi StatusLineTerm term=bold cterm=bold gui=bold ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
   hi TabLine term=underline cterm=underline gui=underline ctermfg=8 ctermbg=234 guifg=darkgray guibg=#1C1C1C
   hi TabLineFill term=underline cterm=underline gui=underline ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
@@ -40,8 +42,9 @@ hi clear CursorLine
 
 hi Conceal term=italic cterm=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Constant term=italic cterm=italic gui=italic ctermfg=fg guifg=fg
-hi CursorLineNr term=italic,bold cterm=italic,bold gui=italic,bold ctermfg=fg ctermbg=bg guifg=fg
+hi CurSearch term=reverse cterm=reverse gui=reverse ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi CursorLine term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg
+hi CursorLineNr term=italic,bold cterm=italic,bold gui=italic,bold ctermfg=fg ctermbg=bg guifg=fg
 hi DiffAdd term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi DiffChange term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi DiffDelete term=NONE cterm=NONE gui=NONE ctermfg=8 ctermbg=bg guifg=darkgray guibg=bg
@@ -56,6 +59,7 @@ hi Identifier term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Ignore ctermfg=8 guifg=darkgray
 hi LineNr term=italic cterm=italic gui=italic ctermfg=8 ctermbg=bg guifg=darkgray
 hi MatchParen term=underline cterm=underline gui=reverse,underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi ModeMsg term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi MoreMsg term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi NonText term=NONE gui=NONE ctermfg=8 ctermbg=bg guifg=darkgray guibg=bg
 hi Operator term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
@@ -74,6 +78,7 @@ hi SpellRare term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg 
 hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi StatusLineNC term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi StatusLineTermNC term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi String term=italic cterm=italic gui=italic ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Title term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi Todo term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi Type term=bold,italic cterm=bold,italic gui=bold,italic ctermfg=fg guifg=fg
