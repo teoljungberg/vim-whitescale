@@ -72,9 +72,9 @@ hi SignColumn term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg
 hi Special term=NONE cterm=NONE gui=NONE ctermfg=fg guifg=fg
 hi SpecialKey term=NONE cterm=NONE gui=NONE ctermfg=8 guifg=darkgray
 hi SpellBad term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
-hi SpellCap term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi SpellLocal term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-hi SpellRare term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi SpellCap term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
+hi SpellLocal term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
+hi SpellRare term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg guisp=fg
 hi Statement term=bold cterm=bold gui=bold ctermfg=fg guifg=fg
 hi StatusLineNC term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi StatusLineTermNC term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg=fg guibg=bg
