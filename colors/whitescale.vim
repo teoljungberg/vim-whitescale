@@ -12,6 +12,7 @@ if &background == "light"
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=15 ctermbg=7 guifg=white guibg=#D0D0D0
   hi Comment term=italic cterm=italic gui=italic ctermfg=248 guifg=gray
   hi Normal term=NONE gui=NONE ctermfg=234 ctermbg=15 guifg=#1C1C1C guibg=white
+  hi NormalFloat term=NONE gui=NONE ctermfg=234 ctermbg=15 guifg=#1C1C1C guibg=white
   hi Pmenu term=NONE gui=NONE ctermfg=234 ctermbg=15 guifg=#1C1C1C guibg=white
   hi PmenuSbar term=NONE gui=NONE ctermfg=234 ctermbg=15 guifg=#1C1C1C guibg=white
   hi PmenuSel term=bold cterm=bold gui=bold ctermfg=15 ctermbg=234 guifg=white guibg=#1C1C1C
@@ -26,6 +27,7 @@ else
   hi ColorColumn term=NONE cterm=NONE gui=NONE ctermfg=234 ctermbg=8 guifg=#1C1C1C guibg=#D0D0D0
   hi Comment term=italic cterm=italic gui=italic ctermfg=8 guifg=darkgray
   hi Normal term=NONE gui=NONE ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
+  hi NormalFlat term=NONE gui=NONE ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
   hi Pmenu term=NONE gui=NONE ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
   hi PmenuSbar term=NONE gui=NONE ctermfg=252 ctermbg=234 guifg=#D0D0D0 guibg=#1C1C1C
   hi PmenuSel term=bold cterm=bold gui=bold ctermfg=234 ctermbg=252 guifg=#1C1C1C guibg=#D0D0D0
@@ -50,6 +52,7 @@ hi DiffChange term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg
 hi DiffDelete term=NONE cterm=NONE gui=NONE ctermfg=8 ctermbg=bg guifg=darkgray guibg=bg
 hi DiffText term=italic cterm=italic gui=italic ctermfg=fg ctermbg=8 guifg=fg guibg=darkgray
 hi Directory term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi EndOfBuffer term=NONE gui=NONE ctermfg=8 ctermbg=bg guifg=darkgray guibg=bg
 hi Error term=underline,bold cterm=underline,bold gui=underline,bold ctermbg=bg ctermfg=fg guibg=bg guifg=fg
 hi ErrorMsg term=bold,reverse cterm=bold,reverse gui=bold,reverse ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi FoldColumn term=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
@@ -85,10 +88,8 @@ hi Type term=bold,italic cterm=bold,italic gui=bold,italic ctermfg=fg guifg=fg
 hi Underlined term=underline cterm=underline gui=underline ctermfg=fg guifg=fg
 hi VertSplit term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
-
-hi link EndOfBuffer NonText
-hi link diffAdded DiffAdd
-hi link diffChanged DiffChange
-hi link diffRemoved DiffDelete
+hi diffAdded term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi diffChanged term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi diffRemoved term=NONE cterm=NONE gui=NONE ctermfg=8 ctermbg=bg guifg=darkgray guibg=bg
 
 set fillchars+=vert:│
