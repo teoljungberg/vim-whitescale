@@ -87,6 +87,7 @@ hi Todo term=underline cterm=underline gui=underline ctermfg=fg ctermbg=bg guifg
 hi Type term=bold,italic cterm=bold,italic gui=bold,italic ctermfg=fg guifg=fg
 hi Underlined term=underline cterm=underline gui=underline ctermfg=fg guifg=fg
 hi VertSplit term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
+hi WarningMsg term=reverse cterm=reverse gui=reverse ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi WildMenu term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi diffAdded term=bold cterm=bold gui=bold ctermfg=fg ctermbg=bg guifg=fg guibg=bg
 hi diffChanged term=NONE cterm=NONE gui=NONE ctermfg=fg ctermbg=bg guifg=fg guibg=bg
